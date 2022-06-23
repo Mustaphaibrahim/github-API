@@ -1,0 +1,85 @@
+body
+{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.main1
+{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    border-radius: 10px;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.671);
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,0.4);
+}
+.main1 h1{
+    color: white;
+}
+[type="text"]
+{
+    width: 300px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+   
+}
+[type="button"]
+{
+    width: 150px;
+    background-color:red;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+[type="button"]:hover
+{
+    
+    cursor: pointer;
+}
+.main2
+{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,0.4);
+    background-color: rgba(0, 0, 0, 0.671);;
+}
+.box
+{
+    width: 95%;
+    margin: 20px 0px;
+    background-color:rgb(147, 141, 141);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+.box:hover
+{
+    cursor: pointer;
+}
+.box span 
+{
+    float: right;
+    width: 100px;
+}
+.box p
+{
+    width: 300px;
+}
+.box h2
+{
+    width: 200px;
+}
